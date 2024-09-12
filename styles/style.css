@@ -4,3 +4,108 @@
 .font-poppins {
   font-family: "Poppins", sans-serif;
 }
+
+/* common styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.u-line {
+  width: 100px;
+  height: 7px;
+  background-color: rgb(53, 199, 53);
+  margin: 0 auto;
+  position: relative;
+  top: -35px;
+}
+.title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+.btn-container {
+  text-align: center;
+}
+.btn {
+  background-color: black;
+  color: white;
+  padding: 16px 40px;
+  border-radius: 10px;
+  margin: 20px auto;
+  font-size: 24px;
+}
+
+/* how it works styles */
+.how-works {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.works-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.card {
+  text-align: center;
+  width: 400px;
+}
+#card-4 {
+  margin: 50px auto;
+}
+.card-img {
+  background-color: #f5f7f8;
+  height: 260px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-icon {
+  font-size: 80px;
+}
+.card-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.card-u-line {
+  width: 100px;
+  height: 3px;
+  background-color: rgb(53, 199, 53);
+  margin: 0 auto;
+  position: relative;
+  top: -15px;
+  display: none;
+}
+.card-description {
+  font-weight: 200;
+  font-size: medium;
+}
+.card:hover {
+  .card-img {
+    background-color: rgb(46, 154, 46);
+    transition: 0.9s;
+  }
+  .card-description {
+    font-weight: 400;
+    transition: 0.2s;
+  }
+  .card-u-line {
+    display: block;
+  }
+}
+
+/* responsiveness */
+@media screen and (max-width: 576px) {
+  .works-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .works-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
