@@ -11,11 +11,15 @@
   margin: 0;
   padding: 0;
 }
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
 .u-line {
   width: 100px;
   height: 7px;
   background-color: rgb(53, 199, 53);
-  margin: 0 auto;
+  margin: 40px auto;
   position: relative;
   top: -35px;
 }
@@ -27,19 +31,19 @@
 }
 .btn-container {
   text-align: center;
+  margin-top: 50px;
 }
 .btn {
   background-color: black;
   color: white;
   padding: 16px 40px;
   border-radius: 10px;
-  margin: 20px auto;
-  font-size: 24px;
+  margin: 25px auto;
+  font-size: 20px;
 }
 
 /* how it works styles */
 .how-works {
-  max-width: 1240px;
   margin: 0 auto;
 }
 .works-container {
@@ -97,7 +101,15 @@
     display: block;
   }
 }
-
+/* about ctytop styles */
+.about-img {
+  text-align: center;
+}
+.about-description {
+  text-align: justify;
+  font-weight: 400;
+  line-height: 30px;
+}
 /* responsiveness */
 @media screen and (max-width: 576px) {
   .works-container {
