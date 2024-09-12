@@ -101,7 +101,7 @@ body {
     display: block;
   }
 }
-/* about ctytop styles */
+/* about cryptop styles */
 .about-img {
   text-align: center;
 }
@@ -109,6 +109,29 @@ body {
   text-align: justify;
   font-weight: 400;
   line-height: 30px;
+}
+/* download styles */
+.download {
+  background-color: #0d7c66;
+  padding: 30px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  margin-top: 70px;
+}
+.download-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+.download-img {
+  position: absolute;
+  right: 30px;
+  top: -50px;
 }
 /* responsiveness */
 @media screen and (max-width: 576px) {
