@@ -43,7 +43,7 @@ body {
 }
 
 /* how it works styles */
-.how-works {
+#how-works {
   margin: 0 auto;
 }
 .works-container {
@@ -105,13 +105,14 @@ body {
 .about-img {
   text-align: center;
 }
-.about-description {
-  text-align: justify;
+.about-description,
+.aumatice-description {
+  text-align: center;
   font-weight: 400;
   line-height: 30px;
 }
 /* download styles */
-.download {
+#download {
   background-color: #0d7c66;
   padding: 30px;
   color: white;
@@ -132,6 +133,13 @@ body {
   position: absolute;
   right: 30px;
   top: -50px;
+}
+/* automatic-section styles */
+#automatic-section {
+  margin-top: 70px;
+}
+.auto-img {
+  text-align: center;
 }
 /* responsiveness */
 @media screen and (max-width: 576px) {
