@@ -81,6 +81,24 @@ nav ul li a:hover {
 .search-icon {
   margin-top: 10px;
 }
+/* banner styles */
+#banner {
+  background-image: url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#banner h1 {
+  font-size: 70px;
+  text-align: center;
+}
+#banner .banner-img {
+  margin-left: 200px;
+}
 /* how it works styles */
 #how-works {
   width: 1200px;
