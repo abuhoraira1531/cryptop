@@ -1,11 +1,11 @@
-/* poppins font */
+/********************************************* poppins font *******************************************/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .font-poppins {
   font-family: "Poppins", sans-serif;
 }
 
-/* common styles */
+/************************************************** common styles******************************************/
 
 * {
   margin: 0;
@@ -21,30 +21,30 @@
 }
 .title {
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 .btn-container {
   text-align: center;
   margin-top: 50px;
 }
 .btn {
-  background-color: black;
-  color: white;
+  background-color: #181c14;
+  color: #f5f7f8;
   padding: 16px 40px;
   border-radius: 10px;
   margin: 25px auto;
   font-size: 20px;
 }
-/* navigation styles  */
+/****************************************** navigation styles  ********************************************/
 #nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #343131;
+  background-color: #181c14;
   color: #ffffff;
-  padding: 20px;
+  padding: 24px;
 }
 .logo {
   font-size: 30px;
@@ -54,7 +54,7 @@
 .logo-block {
   width: 70px;
   height: 65px;
-  background-color: green;
+  background-color: #437703;
   position: absolute;
   top: -8px;
   left: -8px;
@@ -81,7 +81,7 @@ nav ul li a:hover {
 .search-icon {
   margin-top: 10px;
 }
-/* banner styles */
+/************************************************** banner styles ****************************************/
 #banner {
   background-image: url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
@@ -99,7 +99,7 @@ nav ul li a:hover {
 #banner .banner-img {
   margin-left: 200px;
 }
-/* how it works styles */
+/****************************************** how it works styles ******************************************/
 #how-works {
   width: 1200px;
   margin: 0 auto;
@@ -159,7 +159,7 @@ nav ul li a:hover {
     display: block;
   }
 }
-/* about cryptop styles */
+/************************************************* about cryptop styles ************************************/
 #about-cryptop {
   width: 1200px;
   margin: 0 auto;
@@ -173,7 +173,7 @@ nav ul li a:hover {
   font-weight: 400;
   line-height: 30px;
 }
-/* download styles */
+/********************************************* download styles *********************************************/
 #download {
   background-color: #0d7c66;
   padding: 30px;
@@ -196,7 +196,7 @@ nav ul li a:hover {
   right: 30px;
   top: -50px;
 }
-/* automatic-section styles */
+/*********************************************** automatic-section styles *******************************/
 #automatic-section {
   margin-top: 70px;
   width: 1200px;
@@ -205,7 +205,7 @@ nav ul li a:hover {
 .auto-img {
   text-align: center;
 }
-/* testimonial styles */
+/******************************************** testimonial styles *******************************************/
 .testimoni {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -228,7 +228,70 @@ nav ul li a:hover {
 .testimoni-img h3 {
   font-weight: 400;
 }
-/* responsiveness */
+/***************************************** footer styles *********************************************/
+#footer {
+  background-color: black;
+  color: white;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+.logo-footer {
+  font-size: 32px;
+  position: relative;
+  z-index: 1;
+  margin: 30px 0;
+}
+.logo-block-footer {
+  width: 70px;
+  height: 60px;
+  background-color: green;
+  position: absolute;
+  top: -16px;
+  left: -14px;
+  padding: 5px 6px;
+  z-index: -1;
+  border-radius: 5px;
+}
+.footer-contact {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-lacation,
+.footer-phone,
+.footer-email {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.footer-phone img,
+.footer-lacation img,
+.footer-email img {
+  margin-right: 24px;
+}
+.news-letter input {
+  padding: 8px 20px;
+  background-color: black;
+  border: 1px solid white;
+  font-size: 20px;
+}
+.news-letter button {
+  padding: 8px 10px;
+  width: 150px;
+  height: 40px;
+  font-size: 24px;
+  background-color: green;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.invest-money,
+.useful-links {
+  font-weight: 300;
+}
+/******************************************** responsiveness *********************************************/
 @media screen and (max-width: 576px) {
   .works-container {
     grid-template-columns: repeat(1, 1fr);
