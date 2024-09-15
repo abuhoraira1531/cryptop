@@ -246,7 +246,7 @@ nav ul li a:hover {
 .logo-block-footer {
   width: 70px;
   height: 60px;
-  background-color: green;
+  background-color: #437703;
   position: absolute;
   top: -16px;
   left: -14px;
@@ -281,7 +281,7 @@ nav ul li a:hover {
   width: 150px;
   height: 40px;
   font-size: 24px;
-  background-color: green;
+  background-color: #437703;
   margin-top: 20px;
   color: white;
   border: none;
